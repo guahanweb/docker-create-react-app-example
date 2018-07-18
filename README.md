@@ -3,9 +3,7 @@
 This repo is a baseline example for how to configure docker images for both
 development and production environments based on [Michael Herman's article](http://mherman.org/blog/2017/12/07/dockerizing-a-react-app/).
 
-All the files and configuration in this example would be **added to the app root**
-of an existing `create-react-app` project. Conversely, you could start with this repo
-and run `create-react-app` in the root.
+In its current configuration, the React application would reside fully within the `/app` directory in the project root. All commands will be executed from that context.
 
 ## Development build
 
